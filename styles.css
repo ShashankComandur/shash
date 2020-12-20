@@ -1,0 +1,119 @@
+body {
+    /* Background Image */
+    background-image: url(img/background.png);
+    background-repeat: repeat-y;
+    background-attachment: fixed; 
+    padding: 0;
+    margin: 0; 
+    color: white;
+    font-family: 'gothambold';
+}
+
+/* Gotham Font Kit */
+@font-face {
+    font-family: 'gothambold';
+    src: url('files/Gotham\ Font\ Kit/gotham-bold_700.woff2') format('woff2'),
+         url('files/Gotham\ Font\ Kit/gotham-bold_700.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Nav Bar */
+.topnav {
+    background-color: rgba(41, 41, 41, 0);
+    overflow: hidden;
+    letter-spacing: -1px;
+    font-family: gothambold;
+    /* position: fixed; */
+    top: 0; 
+    width: 100%;
+}
+  
+/* Nav Bar Links */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Nav Bar Hover */
+.topnav a:hover {
+    background-color: #1a428d;
+    color: white;
+}
+
+/* Current Page */
+.topnav a.active {
+    background-color: #84C3FF;
+    color: white;
+}
+
+/* Header Text */
+.header-txt {
+    display: block;
+    font-family: 'gothambold';
+    font-size: 30px;
+    color: white;
+    letter-spacing: -1px;
+    padding-top: 10px;  
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Header Image */
+.header-img {
+    display: block;
+    margin: auto;
+    width: 35%;
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+}
+
+/* Home Page Options */
+.options {
+    display: flex;
+    padding: 10px;   
+    background: rgba(0, 0, 0, 0);
+    border-radius: 8px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 37%;
+}
+
+.options img {
+    display: block;
+    width: 250px;
+    border: 5px solid #84C3FF;
+    margin-right: 50px;
+    border-radius: 8px;   
+}
+
+/* Footer Text */
+.footer-txt {
+    opacity: 100%;
+    font-family: 'gothambold';
+    font-size: 15px;
+    color: white;
+    letter-spacing: -1px;
+    padding: 1px;
+    text-align: center;
+    margin-top: 1px;
+    margin: 0; 
+}
+
+/* Footer Image */
+.footer-img {
+    object-fit: contain;
+    display: block;
+    margin: auto;
+    padding-bottom: 0%;
+    border-bottom: 0;
+    max-width:50%;
+    max-height:50%;
+}
